@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio website Create!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- start Header Section -->
+    <div id="header" class="container1">
+
+
+        <div class="container">
+            <nav>
+                <!-- <img src="" alt="logo" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header" class="btn1 home">Home</a></li>
+                    <li><a href="#about" class="btn1 about">About</a></li>
+                    <li><a href="#services" class="btn1 services">Services</a></li>
+                    <li><a href="#portfolio" class="btn1 portfolio">Portfolio</a></li>
+                    <li><a href="#contact" class="btn1 contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text content">
+                <h1 id="port" class="portfolio1 port mymove text">Welcome to My Portfolio!</h1>
+                <p class="mymove  ">Web Designer</p>
+                <h1 class="mymove ">Hey,I am <span class="mymove ">Prince Kumar</span> <br> From Bihar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Section -->
+
+
+    <!-- Start About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="new..JPG"> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title text1">About Me</h1>
+                    <p>Myself Prince Kumar,Basically i am from Bihar but currently pursing my <b>B.Tech (2020-2024)</b>
+                        from
+                        <b>NIT Raipur</b> as
+                        a Biomedical Engineer<br>
+                        I'm a web developer with a focus on the full stack Development, but still exploring other
+                        technologies and
+                        frameworks that catch my interest! if you're looking for a developer to add to your team,
+                        I'd
+                        love to hear from you!
+
+
+                        !
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>C++<br>Data
+                                        Structure<br>HTML<br>CSS<br>JAVASCRIPT<br>PYTHON<br>PHP<br>REACT.JS<br>NODE.JS<br>MYSQL<br>ML<br>AI</b></span><br>
+                            </li>
+                            <!-- <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Builing android/ios App</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Loading....</li>
+                            <li><span>2023</span><br>Loading......</li>
+                            <li><span>2023-2024</span><br>Loading.........</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br><b>NIT Raipur</b></li>
+                            <li><span>12th BSEB (78.2%)</span><br><b>D.M Academy Bagaha-1</b></li>
+                            <li><span>10th BSEB (80.6%)</span><br><b>D.M Academy Bagaha-1</b></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Section -->
+
+
+    <!-- Service section start -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title text2">My Services</h1>
+            <p> A web design service provides you with a customized website design that's perfect for your business or
+                personal site. They'll work with you to create a design that matches your brand, while giving your
+                customers a seamless user experience that will delight them.</p>
+            <div class="services-list">
+
+                <div>
+                    <img src="lo-removebg-preview (1).png">
+                    <h2>Web Design</h2>
+                    <p>Web design is a multi-disciplinary job, where you'd need not only knowledge in design
+                        (typography, color theory) but also skills in developing a website (HTML, CSS, JavaScript). Some
+                        web designers are also involved in interaction design when they code for animations and
+                        interactions using CSS and/or JavaScript.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Learn More</a>
+                </div>
+
+                <div>
+                    <img src="ui-removebg-preview.png">
+                    <h2>UI/UX Design</h2>
+                    <p>UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact
+                        with when using a website, app, or other electronic device. UX refers to the entire interaction
+                        you have with a product, including how you feel about the interaction.</p>
+                    <a href="https://en.wikipedia.org/wiki/User_experience_design" target="_blank">Learn More</a>
+                </div>
+
+                <div>
+                    <img src="app-removebg-preview.png">
+                    <h2>App Design</h2>
+                    <p>App design is an ongoing process comprising user experience (UX) and user interface (UI)
+                        elements. Designers ideate, define solutions, create the app's flow and structure, and make
+                        stylistic choices from colors to fonts. Designers base choices on user research and feedback.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Mobile_app_development" target="_blank">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- service section end -->
+
+
+
+    <!-- Portfolio Section Start -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title text3">My Work</h1>
+            <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds,
+                pictures, graphics and video clips. A web designer is responsible for creating the design and layout of
+                a website or web pages. It and can mean working on a brand new website or updating an already existing
+                site.</p>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="logo2.webp">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The term social media refers to a computer-based technology that facilitates the sharing of
+                            ideas, thoughts, and information through virtual networks and communities. Social media is
+                            internet-based and gives users quick electronic communication of content, such as personal
+                            information, documents, videos, and photos.</p>
+                        <a href="https://en.wikipedia.org/wiki/Social_media" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Music is a pleasant sound which is a combination of melodies and harmony and which soothes
+                            you. Music may also refer to the art of composing such pleasant sounds with the help of the
+                            various musical instruments. A person who knows music is a Musician. The music consists of
+                            Sargam, Ragas, Taals, etc.</p>
+                        <a href="https://en.wikipedia.org/wiki/Music_(software)" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="mo.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Mobile commerce (or m-commerce) describes purchasing from an online retailer's mobile
+                            device-optimized website or software application ("app"). These websites or apps are
+                            designed to enable customers to browse through a companies' products and services on tablet
+                            computers and smartphones.</p>
+                        <a href="https://en.wikipedia.org/wiki/Online_shopping" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="https://www.w3schools.com/whatis/" target="_blank" class="btn">Learn More</a>
+
+        </div>
+    </div>
+
+
+    <!-- Portfolio Section end -->
+
+
+    <!-- Contact Section end -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title text4">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>princekumarbug12344@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 7783063159</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100073966759107" target="_blank"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/Prince_NITrr24" target="_blank"><i
+                                class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/prince_nitrr/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/prince-kumar-240bb0224/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Please enter your full name" required>
+                        <input type="Email" name="Email" placeholder="Please enter your email" required>
+                        <textarea name="message" rows="6"
+                            placeholder="Hey,Prince I have a question regarding Web Design!"></textarea>
+                        <button type="submit" class="btn btn2"
+                            onclick="alert('Thanks for your response!')">submit</button>
+                        <button type="reset" class="btn btn2">reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-heart"></i> Created by @Prince kumar</p>
+        </div>
+    </div>
+
+    <!-- Contact Section end -->
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
